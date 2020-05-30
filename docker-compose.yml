@@ -3,8 +3,8 @@ services:
         icon:
                 build:
                         context: ./
-                image: frt/icon
-                container_name: icon
+                image: frt/ear
+                container_name: ear
                 ports:
                         - 127.0.0.1:11120:8888
                 volumes:  
